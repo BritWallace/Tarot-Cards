@@ -8,7 +8,12 @@ const Navbar = () => {
           color: 'white', 
           backgroundColor: '#f1356d',
           borderRadius: '8px' 
-        }}>New reading</a>
+        }}>Ten cards</a>
+        <a href="/create" style={{ 
+          color: 'white', 
+          backgroundColor: '#f1356d',
+          borderRadius: '8px' 
+        }}>Three cards </a>
       </div>
     </nav>
   );

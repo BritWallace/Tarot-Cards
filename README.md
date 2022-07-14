@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+#  <p align="center">  🔮 **₸₳R𝇇₸** 🔮</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#### By _**Brit Wallace**_
 
-In the project directory, you can run:
+#### A React app that reads your Tarot cards. 
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* _HTML_
+* _CSS_
+* _Javascript_
+* _React_
+* _Node Package Manager (npm)_
+* _Webpack_
+* _ESlint_
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Description
 
-### `npm run build`
+_A React app that tells the future with Tarot cards._
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Component Diagram
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![component diagram](./src/Img/diagram.jpeg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Research & Planning Log
+#### Friday, 06/17
+* 4:00pm : Research Tarot and Capstone Proposal ideas  
+* 5:00 : research libraries for animations
 
-### `npm run eject`
+#### Saturday, 7/2
+* 5:00pm : Research Api's
+* 6:00: YouTube worm hole...
+* 8:00: Reading how to read Tarot cards to looking at wanted card art.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### MVP
+* Make an application I can be proud of.
+* This app will read Tarot cards to the user.
+* Use cool APIs.
+* Have a place to ask questions. 
+* user should ...
+* I would like this application to be accessible. 
+* Javascript 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Stretch Goals
+*  Use animation.
+*  Use a music Api.
+*  Have a live chat with a real psychic.
+*  Have a logged in personalized experience.
+*  styling with CSS smoke clouds.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Setup/Installation Requirements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* _Clone this repository from https://github.com/BritWallace/tarot-cards.git_
+* _Open project in the code editor of your choice._
+* _In the root directory enter the command npm install_
+* _Run: npm install animate.css --save to get animation.
+* _Run: npm start to view in the browser._
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Known Bugs
 
-### Making a Progressive Web App
+* _No known issues_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact Me
 
-### Advanced Configuration
+_Let me know if you run into any issues or have questions, ideas or concerns. britwallace@gmail.com_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+_MIT_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) _June 2022_ _Brit Wallace

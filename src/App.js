@@ -1,5 +1,7 @@
 import Navbar from './Navbar';
 import Home from './Home';
+import 'animate.css';
+
 
 function App() {
   return (

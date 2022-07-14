@@ -9,9 +9,10 @@ const Home = () => {
   })
   return (
     <div className="home">
-      <h2>Homepage</h2>
+      <h1 class="animate__animated animate__flip">✨🔮✨</h1>
       <h2>{db.description}</h2>
-      {/* <img src={`images/cards/${card.img}`} alt={card.name} /> */}
+      {/* <img className="card-image" src={`Images/cards/${card.img}`} alt={card.name} />
+       */}
     </div>
   );
 }
