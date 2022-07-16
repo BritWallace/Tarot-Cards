@@ -21,11 +21,11 @@
   
   text-shadow:
     -1px -1px 0 #000,
-     0   -1px 0 #000,
-     1px -1px 0 #000,
-     1px  0   0 #000,
-     1px  1px 0 #000,
-     0    1px 0 #000,
+      0   -1px 0 #000,
+      1px -1px 0 #000,
+      1px  0   0 #000,
+      1px  1px 0 #000,
+      0    1px 0 #000,
     -1px  1px 0 #000,
     -1px  0   0 #000;
 }
@@ -36,6 +36,7 @@
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
+  
 }
 .navbar a:hover {
   color: #f1356d;
@@ -52,4 +53,17 @@ body {
   background-repeat: no-repeat;
 
 }
+
+.links {
+  color: 'white', 
+    backgroundColor #d2c4c8,
+    borderRadius 8px 
+}
+
+.singleCard {
+  font-size: 50px;
+  color: rgb(225, 225, 236);
+    
+}
+
 
