@@ -28,10 +28,10 @@ function App() {
               <SingleCard />
             </Route>
             <Route path="/ThreeCard">
-              <SingleCard />
+              <ThreeCard />
             </Route>
             <Route path="/TenCard">
-              <SingleCard />
+              <TenCard />
             </Route>
           </Switch>
         </div>
