@@ -8,17 +8,17 @@ const Navbar = () => {
         <Link to="/">Home</Link>
         <Link to="/singleCard" style={{ 
           color: 'white', 
-          backgroundColor: '#f1356d',
+          backgroundColor: '#ed4c17',
           borderRadius: '8px' 
         }}>Single Card</Link>
         <Link to="/threeCard" style={{ 
           color: 'white', 
-          backgroundColor: '#f1356d',
+          backgroundColor: '#ed4c17',
           borderRadius: '8px' 
         }}>Three cards </Link>
         <Link to="/tenCard" style={{ 
           color: 'white', 
-          backgroundColor: '#f1356d',
+          backgroundColor: '#ed4c17',
           borderRadius: '8px' 
         }}>Ten Cards</Link>
         

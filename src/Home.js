@@ -1,11 +1,14 @@
 import { useEffect } from "react";
 import db from "./data/db"; 
+import particles from "./data/particles";
 
 // import { getDeck } from "./Deck"
 
 const Home = () => {
+  // const card = db.cards[0];
   useEffect(() => {
     console.log("db");
+    console.log(particles)
     
   })
   return (
