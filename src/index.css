@@ -72,10 +72,19 @@
     
 }
 
-button {
-  color: 'white', 
-  backgroundColor '#ed4c17',
-  borderRadius '8px' 
+.buttonTime {
+  color: white;
+  background-color: #f16435;
+  font-size: 40px;
+  border-radius: 8px; 
+  box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  
+  
+}
+
+.buttonTime:hover {
+  background-color:#000;
+  color: white;
 }
 
 
