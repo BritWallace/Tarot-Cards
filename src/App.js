@@ -8,7 +8,7 @@ import TenCard from './TenCard';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 // import Particles from 'react-particles-js';
 
-import particlesConfig from './data/particles';
+import Particles from './data/particles';
 
 
 
@@ -18,7 +18,7 @@ function App() {
     
     <Router>
       <div className="App">
-      
+        {/* <Particles /> */}
         <Navbar />
         <div className="content">
           <Switch>

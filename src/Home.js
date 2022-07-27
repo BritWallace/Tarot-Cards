@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <div className="home">
-    {/* <Particles height="100vh" width="100vw" params={particlesConfig} /> */}
+    
       <h1 className="animate__animated animate__flip">✨🔮✨</h1>
       {/* <h2>{ db.description }</h2> */}
       <h1>Welcome to your personal Tarot card reading. </h1>

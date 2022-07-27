@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -31,9 +32,10 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- <div id="nav">Particles.js</div> -->
     <div id="wrapper">
-      <div id="particles-div"></div>
-      <button id="particles-button">Start particles</button>
+      <div id="particle-div"></div>
+      <button id="particle-button">Start particles</button>
     </div>  
     <!--
       This HTML file is a template.
@@ -47,7 +49,7 @@
     -->
     <script>
       $("particle-button").click(function(){
-        particle.load('particle-div', 'particle-json');
+        particlesJS.load('particle-div', 'particles.json');
       })
     </script>
   </body>

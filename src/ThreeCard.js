@@ -76,9 +76,11 @@ const ThreeCard = () => {
                 :
                 <div className="Display">Three Card Tarot Spreads
                     As you can imagine, this layout is good at suggesting some sort of linear path, sequence of events, cause and effect, or a way of getting from point a to point b.
-        
+                    
 
-                    <p>Cards are in order by default; Shuffle and Draw a Card</p>
+                    <p>Cards are in order by default; Shuffle and Draw a Card for every new draw.</p>
+                    <p>Below are some things to keep in mind when choosing cards.</p>
+
                     <p>Past, Present, Future</p>
                     <p>You, Your Path, Your Potential</p>
                     <p>You, Relationship, Partner</p>
