@@ -34,3 +34,27 @@ export const getCard = (deck) => {
   let drawnCard = deck.splice(0, 1);
   return drawnCard[0];
 }
+
+export const getSpread = (deck, num) => {
+  let thisSpread = [];
+  for (let i = 0; i < num; i++) {
+      thisSpread.push(deck[i]);
+  }
+  return thisSpread;
+}
+
+export const cardImage = [
+  { "src": "images/cO1.jpg"},
+  { "src": "images/cO2.jpg"}
+  
+]
+
+export const shuffleDeck = () => {
+  const shuffledDeck = [...cardImage]
+    .sort(() => Math.random() - 0.5)
+    .map((card) => ({...card, id: Math.random()}))
+}
+
+
+
+

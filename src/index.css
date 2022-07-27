@@ -78,6 +78,7 @@
   font-size: 40px;
   border-radius: 8px; 
   box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  margin-right: 10px;
   
   
 }
@@ -85,6 +86,12 @@
 .buttonTime:hover {
   background-color:#000;
   color: white;
+}
+
+.particle-div {
+  margin: 0 auto;
+  width: 800px;
+  height: 500px
 }
 
 

@@ -7,7 +7,8 @@ import ThreeCard from './ThreeCard';
 import TenCard from './TenCard';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 // import Particles from 'react-particles-js';
-// import particlesConfig from './data/particles';
+
+import particlesConfig from './data/particles';
 
 
 
@@ -17,7 +18,7 @@ function App() {
     
     <Router>
       <div className="App">
-      {/* <Particles height="100vh" width="100vw" params={particlesConfig} /> */}
+      
         <Navbar />
         <div className="content">
           <Switch>
