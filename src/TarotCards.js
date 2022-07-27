@@ -55,6 +55,9 @@ export const shuffleDeck = () => {
     .map((card) => ({...card, id: Math.random()}))
 }
 
+// Memory logic
+
+
 
 
 

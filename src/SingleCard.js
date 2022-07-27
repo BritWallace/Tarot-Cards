@@ -74,7 +74,7 @@ const SingleCard = () => {
                     </div>
                 </div>
                 :
-                <div className="Display">Cards are in order by default; Shuffle and Draw a Card</div>}
+                <div className="Display">Cards are in order by default; Shuffle and Draw a Card:</div>}
         </div>
     )
 }

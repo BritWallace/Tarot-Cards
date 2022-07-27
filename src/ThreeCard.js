@@ -79,8 +79,8 @@ const ThreeCard = () => {
                     
 
                     <p>Cards are in order by default; Shuffle and Draw a Card for every new draw.</p>
-                    <p>Below are some things to keep in mind when choosing cards.</p>
-
+                    <p>Below are some things to keep in mind when choosing cards:</p>{'\n'}
+                    '\n'
                     <p>Past, Present, Future</p>
                     <p>You, Your Path, Your Potential</p>
                     <p>You, Relationship, Partner</p>

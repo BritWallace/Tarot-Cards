@@ -4,7 +4,7 @@ import Home from './Home';
 import 'animate.css';
 import SingleCard from './SingleCard';
 import ThreeCard from './ThreeCard';
-import TenCard from './TenCard';
+import Memory from './Memory';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 // import Particles from 'react-particles-js';
 
@@ -31,8 +31,8 @@ function App() {
             <Route path="/ThreeCard">
               <ThreeCard />
             </Route>
-            <Route path="/TenCard">
-              <TenCard />
+            <Route path="/Memory">
+              <Memory />
             </Route>
           </Switch>
         </div>

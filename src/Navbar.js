@@ -16,11 +16,16 @@ const Navbar = () => {
           backgroundColor: '#ed4c17',
           borderRadius: '8px' 
         }}>Three cards </Link>
-        <Link to="/tenCard" style={{ 
+        {/* <Link to="/tenCard" style={{ 
           color: 'white', 
           backgroundColor: '#ed4c17',
           borderRadius: '8px' 
-        }}>Ten Cards</Link>
+        }}>Ten Cards</Link> */}
+        <Link to="/memory" style={{ 
+          color: 'white', 
+          backgroundColor: '#ed4c17',
+          borderRadius: '8px' 
+        }}>Memory</Link>
         
           
       </div>
