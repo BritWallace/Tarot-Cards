@@ -79,3 +79,13 @@ export const allTarotImages = [
   { "src": "/images/w14.jpg" },
 
 ]
+
+export const cardImages = [
+  { "src": "/images/c01.jpg", matched: false},
+  { "src": "/images/c02.jpg", matched: false},
+  { "src": "/images/c03.jpg", matched: false },
+  { "src": "/images/c04.jpg", matched: false },
+  { "src": "/images/c05.jpg", matched: false },
+  { "src": "/images/c06.jpg", matched: false },
+]
+
