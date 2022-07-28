@@ -1,10 +1,12 @@
 import "./MemoryCards.css"
 
 
-export default function MemoryCards ({ card, handleChoice, flipped }) {
+export default function MemoryCards ({ card, handleChoice, flipped, disabled }) {
   
   const handleClick = () => {
-    handleChoice(card)
+    if (!disabled){
+      handleChoice(card)
+    }
   }
 
   
