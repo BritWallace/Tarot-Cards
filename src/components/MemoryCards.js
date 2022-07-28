@@ -1,9 +1,15 @@
+import "./MemoryCards.css"
 
 
-export default function MemoryCards ({ card, flipped, handleChoice }) {
+export default function MemoryCards ({ card, handleChoice, flipped }) {
+  
   const handleClick = () => {
     handleChoice(card)
   }
+
+  
+
+
 
 
   return (

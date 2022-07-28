@@ -38,7 +38,7 @@ const ThreeCard = () => {
             <div className="options">
                 <button color="primary" className="buttonTime" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
                 <button className="buttonTime" onClick={() => getThisCard(3)} >Draw Card</button>
-                <button className="buttonTime" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button>
+                {/* <button className="buttonTime" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button> */}
             </div>
             {/* condition ? value if true : value if false */}
             {card ?
@@ -80,7 +80,7 @@ const ThreeCard = () => {
 
                     <p>Cards are in order by default; Shuffle and Draw a Card for every new draw.</p>
                     <p>Below are some things to keep in mind when choosing cards:</p>{'\n'}
-                    '\n'
+                    👁
                     <p>Past, Present, Future</p>
                     <p>You, Your Path, Your Potential</p>
                     <p>You, Relationship, Partner</p>
