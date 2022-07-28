@@ -26,6 +26,37 @@ const handleChoice =(card) => {
   choiceOne ? setChoiceTwo(card) : setChoiceOne(card)
 }
 
+useEffect(() => {
+  if (choiceOne && choiceTwo) {
+
+    if (choiceOne.src === choiceTwo.src) {
+      setCards(prevCards => {
+        return prevCards.map(card => {
+          if (card.src === choiceOne.src) {
+            return { ...card, matched: true }
+          } else {
+            return card
+          }
+        })
+      })
+      resetTurn()
+    } else {
+      resetTurn()
+    }
+
+  }
+}, [choiceOne, choiceTwo])
+
+console.log(cards)
+
+const resetTurn = () => {
+  setChoiceOne(null)
+  setChoiceTwo(null)
+  setTurns(prevTurns => prevTurns + 1)
+}
+
+
+
 return (
   <div className="Memory">
     <h3>Magic Memory</h3>
@@ -37,6 +68,7 @@ return (
         key={card.id}
         card={card}
         handleChoice={handleChoice}
+        flipped={card === choiceOne || card === choiceTwo || card.matched}
 
         />
       ))}
