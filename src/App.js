@@ -8,7 +8,7 @@ import Memory from './Memory';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 // import Particles from 'react-particles-js';
 import './App.css'
-
+import Birthday from './Birthday';
 
 import Particles from './data/particles';
 
@@ -35,6 +35,9 @@ function App() {
             </Route>
             <Route path="/Memory">
               <Memory />
+            </Route>
+            <Route path="/Birthday">
+              <Birthday />
             </Route>
           </Switch>
         </div>

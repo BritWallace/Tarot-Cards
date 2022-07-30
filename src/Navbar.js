@@ -26,6 +26,11 @@ const Navbar = () => {
           backgroundColor: '#ed4c17',
           borderRadius: '8px' 
         }}>Memory</Link>
+        <Link to="/birthday" style={{ 
+          color: 'white', 
+          backgroundColor: '#ed4c17',
+          borderRadius: '8px' 
+        }}>Birthday </Link>
         
           
       </div>
