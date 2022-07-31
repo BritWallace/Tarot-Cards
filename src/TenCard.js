@@ -79,13 +79,17 @@ const allTen = ten ? ten.map((newCard, index) => {
         {/* condition ? value if true : value if false */}
         {ten ?
             <ul>
+            <div className="card-TenGrid">
                 {allTen}
+                </div>
             </ul>
             
 
             :
+            
             <div className="Display">Ten Card Tarot Spread
             <li>
+            <h3>☆☆☆☆☆</h3>
             1. The Present / The Self - This position reveals the current situation, and what is now happening. It can also be used to represent what the current state of mind is for the querent and a snapshot of who the querent is at the current moment in time.
             </li>
             <li>

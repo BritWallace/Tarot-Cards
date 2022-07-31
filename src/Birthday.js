@@ -54,9 +54,15 @@ class Birthday extends React.Component {
   render() {
     return (
       <div className="form">
+      <h3>☆☆☆☆☆</h3>
+      <h2> Everyone has a Tarot birth card associated with the Major Arcana, all you have to do is add up your birthday and hey presto! For example, 10/2/1980 = 1+0+2+1+9+8+0 = 21. Add those two numbers together: 2+1=3 = The World and the Empress. It may suggest someone born under this energy would love to travel.</h2>
+      '\n'
+      <div className="something"></div>
       <form onSubmit={this.handleSubmit}>
         <label>
+        <div className="label">
         Add your Birthday like this example: 08 24 2010
+        </div>
           <input type="text" value={this.state.value} onChange={this.handleChange} />
         </label>
         <input type="submit" value="Submit" />

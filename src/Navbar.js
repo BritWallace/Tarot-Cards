@@ -15,7 +15,7 @@ const Navbar = () => {
           color: 'white', 
           backgroundColor: '#ed4c17',
           borderRadius: '8px' 
-        }}>Three cards </Link>
+        }}>Three Cards </Link>
         <Link to="/tenCard" style={{ 
           color: 'white', 
           backgroundColor: '#ed4c17',
@@ -30,7 +30,7 @@ const Navbar = () => {
           color: 'white', 
           backgroundColor: '#ed4c17',
           borderRadius: '8px' 
-        }}>Birthday </Link>
+        }}>Birthday Card</Link>
         
           
       </div>

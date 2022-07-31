@@ -70,7 +70,7 @@ useEffect(() => {
 
 return (
   <div className="Memory">
-    <h3>Magic Memory</h3>
+    <h3>☆☆☆☆☆</h3>
     <button className="buttonTime"onClick={shuffleCards}>New Game</button>
 
     <div className="card-grid">

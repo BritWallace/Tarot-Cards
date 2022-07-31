@@ -58,6 +58,7 @@ _A React app that tells the future with Tarot cards._
 
 ## Setup/Installation Requirements
 
+* Hosted URL coming soon...
 * _Clone this repository from https://github.com/BritWallace/tarot-cards.git_
 * _Open project in the code editor of your choice._
 * _In the root directory enter the command npm install_
