@@ -76,7 +76,7 @@ const ThreeCard = () => {
                 
 
                 :
-                <div className="Display">Three Card Tarot Spreads
+                <div className="Display">Three Card Tarot Spread
                     As you can imagine, this layout is good at suggesting some sort of linear path, sequence of events, cause and effect, or a way of getting from point a to point b.
                     
 
