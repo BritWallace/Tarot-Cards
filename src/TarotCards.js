@@ -63,6 +63,11 @@ export const shuffleDeck = () => {
   
 }
 
+export const getTenCard = (deck) => {
+  let drawnCard = deck.splice(0, 10);
+  return drawnCard;
+}
+
 // Memory logic
 
 

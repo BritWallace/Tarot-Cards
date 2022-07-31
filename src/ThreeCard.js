@@ -28,7 +28,7 @@ const ThreeCard = () => {
 
     }
 
-    // pick a random major arcana card (bonus)
+    
     const getThisCard = () => {
         // gets the first card on top of the deck and removes it from the deck
         setCard(getCard(tarotDeck));
@@ -53,7 +53,7 @@ const ThreeCard = () => {
         return (
         <li>
 
-        <h2>{time}</h2>
+        <h3>{time}</h3>
         <Card card={newCard}/></li>
         )
 
@@ -66,7 +66,7 @@ const ThreeCard = () => {
             <div className="options">
                 <button color="primary" className="buttonTime" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
                 <button className="buttonTime" onClick={() => handleGetCards()} >Draw Cards</button>
-                {/* <button className="buttonTime" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button> */}
+                <button className="buttonTime" onClick={() => { getThisDeck(); setTrio(null) }} >Reset</button>
             </div>
             {/* condition ? value if true : value if false */}
             {trio ?
