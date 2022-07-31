@@ -2,12 +2,13 @@ import { useState } from "react";
 import { useHistory } from "react-router-dom";
 import React, {  useEffect } from 'react'
 import db from "./data/db";
-import { getDeck, getCard, cardShuffle, renderKeywords } from './TarotCards';
-
+import { getDeck, getCard, cardShuffle, renderKeywords, getThreeCard } from './TarotCards';
+import Card from "./components/Card";
 
 const ThreeCard = () => {
     const [tarotDeck, setTarotDeck] = useState(null);
     const [card, setCard] = useState(null);
+    const [trio, setTrio] = useState(null);
     
 
     const getThisDeck = () => {
@@ -32,47 +33,48 @@ const ThreeCard = () => {
         // gets the first card on top of the deck and removes it from the deck
         setCard(getCard(tarotDeck));
     }
+    const handleGetCards = () => {
+        const ThreeCard = getThreeCard(tarotDeck)
+        console.log(ThreeCard)
+        setTrio(ThreeCard)
+        console.log(trio)
+    }
+
+    const allThree = trio ? trio.map((newCard, index) => {
+        let time = ''
+        if (index === 0){ 
+            time ="Past" 
+        } else if (index === 1){ 
+            time ="Present" 
+        } else {
+            time = "Future"
+        }
+        
+        return (
+        <li>
+
+        <h2>{time}</h2>
+        <Card card={newCard}/></li>
+        )
+
+}) : null 
+
+
 
     return (
         <div>
             <div className="options">
                 <button color="primary" className="buttonTime" onClick={() => { setCard(null); shuffle() }} >Shuffle</button>
-                <button className="buttonTime" onClick={() => getThisCard(3)} >Draw Card</button>
+                <button className="buttonTime" onClick={() => handleGetCards()} >Draw Cards</button>
                 {/* <button className="buttonTime" onClick={() => { getThisDeck(); setCard(null) }} >Reset</button> */}
             </div>
             {/* condition ? value if true : value if false */}
-            {card ?
-                <div className="three_cards">
-                    <img className="card-image" src={`Images/${card.img}`} alt={card.name} />
-                    <div className="card-details">
-                        <div className="card-name">{card.number}: {card.name}</div>
-                        <div className="keywords">Keywords: {renderKeywords(card)}</div>
-                        <div className="meaning">
-                            <div className="label">
-                                Light:
-                            </div>
-                            <ul>
-                                {card.meanings.light.map(item => <li key={item}>{item}</li>)}
-                            </ul>
-                        </div>
-                        <div className="meaning">
-                            <div className="label">
-                                Shadow:
-                            </div>
-                            <ul>
-                                {card.meanings.shadow.map(item => <li key={item}>{item}</li>)}
-                            </ul>
-                        </div>
-                        <div className="meaning">
-                            <div className="label">
-                                Questions to Ask Yourself
-                        </div>
-                            <ul>
-                                {card.QuestionsToAsk.map(item => <li key={item}>{item}</li>)}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            {trio ?
+                <ul>
+                    {allThree}
+                </ul>
+                
+
                 :
                 <div className="Display">Three Card Tarot Spreads
                     As you can imagine, this layout is good at suggesting some sort of linear path, sequence of events, cause and effect, or a way of getting from point a to point b.

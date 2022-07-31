@@ -24,8 +24,8 @@ const Home = () => {
       <h1>Welcome to your personal Tarot card reading. </h1>
       <p> Everyone has a Tarot birth card associated with the Major Arcana, all you have to do is add up your birthday and hey presto! For example, 10/2/1980 = 1+0+2+1+9+8+0 = 21. Add those two numbers together: 2+1=3 = The World and the Empress. It may suggest someone born under this energy would love to travel. </p>
       {/* {db.cards.map(card => <p>{card.name}</p>)} */}
-      <img className="tarotCards" src={db.cards.img} alt="Tarot cards"/>
-      {/* <img className="card-image" src={`Images/cards/${card.img}`} alt={card.name} /> */}
+      {/* <img className="tarotCards" src={db.cards.img} alt="Tarot cards"/> */}
+      <img className="card-image" src={`images/cards/${cards.img}`} alt={cards.name} />
       
     </div>
   );

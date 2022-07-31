@@ -35,6 +35,11 @@ export const getCard = (deck) => {
   return drawnCard[0];
 }
 
+export const getThreeCard = (deck) => {
+  let drawnCard = deck.splice(0, 3);
+  return drawnCard;
+}
+
 export const getSpread = (deck, num) => {
   let thisSpread = [];
   for (let i = 0; i < num; i++) {
