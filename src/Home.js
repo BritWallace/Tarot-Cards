@@ -1,9 +1,7 @@
 import { useEffect } from "react";
 import db from "./data/db"; 
 import particles from "./data/particles";
-// import { allTarotImages } from './components/FullDeck'
 
-// import { getDeck } from "./Deck"
 
 const Home = () => {
   const cards = db.cards;

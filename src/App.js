@@ -10,7 +10,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import Particles from 'react-particles-js';
 import './App.css'
 import Birthday from './Birthday';
-
 import Particles from './data/particles';
 
 
@@ -21,7 +20,7 @@ function App() {
     
     <Router>
       <div className="App">
-        {/* <Particles /> */}
+        {/* <ParticlesBackground /> */}
         <Navbar />
         <div className="content">
           <Switch>
